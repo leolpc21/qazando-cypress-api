@@ -1,0 +1,13 @@
+{
+  "booking": {
+    "firstname": "Leo",
+    "lastname": "Costa",
+    "totalprice": 2500,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-09-01",
+      "checkout": "2024-09-30"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

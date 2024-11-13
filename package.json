@@ -1,0 +1,17 @@
+{
+  "name": "cypress-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "Leo Costa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.11.0",
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
