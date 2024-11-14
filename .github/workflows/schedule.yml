@@ -1,0 +1,13 @@
+name: Schedule - Cypress API Tests # Nome do workflow
+on: # Evento que irá acionar o workflow
+  schedule: # Evento que irá acionar o workflow
+    - cron: "0 17 * * *" #
+
+jobs: # Jobs do workflow
+  cypress-run: # Nome do job
+    runs-on: ubuntu-latest # Ambiente de execução
+    steps: # Passos do job
+      - name: Clone do projeto # Passo 1 - Checkout do repositório
+        uses: actions/checkout@v4
+      - name: Cypress run # Passo 2 - Executar os testes
+        uses: cypress-io/github-action@v6
